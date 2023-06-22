@@ -12,7 +12,7 @@ function App() {
   return (
     <AppContext>
       <Router>
-        <div className='flex flex-col h-full'>
+        <div className='flex flex-col h-full overflow-hidden'>
           <Header />
           <Routes>
             <Route exact path={'/'} element={<Feed />} />
